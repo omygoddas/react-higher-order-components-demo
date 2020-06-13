@@ -14,4 +14,4 @@ const UserList = ({ data }) => (
   </div>
 );
 
-export default WithData(UserList, 'https://jsonplaceholder.typicode.com/users');
+export default WithData(UserList);
